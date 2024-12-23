@@ -2974,6 +2974,7 @@ static struct option opts[] = {
 	{"veritysig", 0, 0, 146},
 	{"hwtpm", 0, 0, 147},
 	{"hmackey", 1, 0, 148},
+	{"noxattr", 0, 0, 'n'},
 #if CONFIG_IMA_EVM_PROVIDER
 	{"provider", 1, 0, 149},
 #endif
